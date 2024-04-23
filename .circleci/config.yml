@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/flutter:2.5.0  # استخدم إصدار محدد
+      - image: circleci/  # استخدم إصدار محدد
       
     steps:
       - checkout
